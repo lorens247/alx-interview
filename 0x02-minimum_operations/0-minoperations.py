@@ -5,6 +5,7 @@ Module for the third round interview question
 Minimum number of operations
 """
 
+
 def minOperations(n):
     if n <= 1:
         return 0
