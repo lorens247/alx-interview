@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-'''module - file for Pascal's triangle.
+'''
+Pascal's triangle.
 '''
 
 
 def pascal_triangle(n):
-    '''Pascal's triangle;
+    '''
     returns a list of lists of ints representing the Pascal's triangle of n:
     Returns an empty list if n <= 0
-    Aassumes `n` will be always an integer
+    Assumes `n` will be always an integer
     '''
 
     if n <= 0:
