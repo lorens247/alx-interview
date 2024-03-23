@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-'''Lockboxes
-Determines whether each box can be opened from n boxes.
-Each is numbered sequentially from 0 to n - 1
-    and each box may contain keys to the other boxes.
+'''
+Check whether each box can be opened from n boxes
+with each numbered sequentially from 0 to n - 1 and
+each box may contain keys to the other boxes.
 '''
 
 
