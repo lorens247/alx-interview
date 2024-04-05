@@ -11,10 +11,9 @@ def validUTF8(data):
 
     check if the most significant bit of the byte is set to 0
     (a single-byte character)
-    
     ELSE if the two MSB of the byte are 10 (a following byte)
 
-    Return: 
+    Return:
     True if data is a valid UTF-8 encoding, else return False
     '''
 
