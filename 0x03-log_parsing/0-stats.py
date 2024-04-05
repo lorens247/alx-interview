@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 '''
-modeule: 0-stats.py
+module: 0-stats.py
 reads stdin line by line and computes metrics:
-
 RUN: ./0-generator.py | ./0-stats.py
 '''
 
