@@ -6,8 +6,8 @@ Making Change Algorithm
 
 def makeChange(coins, total):
     '''
-    Determine the fewest number of coins needed to meet a given amount total
-    from a pile of coins of different values...
+    Determine the fewest number of coins needed to meeta given
+    amount total from a pile of coins of different values.
     '''
 
     if total <= 0:
@@ -24,5 +24,3 @@ def makeChange(coins, total):
         if total == 0:
             return dp_count
         return -1
-
-    
